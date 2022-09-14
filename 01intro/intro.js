@@ -1,3 +1,3 @@
 console.log("hiii");
 var user = { name: "hoo", age: 44 };
-console.log(user.age);
+console.log(user.email);
