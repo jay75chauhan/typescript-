@@ -15,4 +15,16 @@ function createMaM(): { name: string; age: number } {
   return { name: "jay", age: 30 };
 }
 
+type Us = {
+  name: string;
+  age: number;
+  isActive: boolean;
+};
+
+function getUs(user: Us): Us {
+  return user;
+}
+
+getUs({ name: "jay", age: 30, isActive: true });
+
 export {};
