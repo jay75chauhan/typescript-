@@ -18,3 +18,10 @@ function getUs(user) {
     return user;
 }
 getUs({ name: "jay", age: 30, isActive: true });
+var myUser = {
+    _id: "1234",
+    name: "jay",
+    age: 30,
+    isActive: true
+};
+function createUser(u) { }
